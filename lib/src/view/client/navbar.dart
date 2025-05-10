@@ -36,7 +36,7 @@ class _NavbarState extends State<Navbar> {
           topRight: Radius.circular(28),
         ),
         child: SizedBox(
-          height: 75,
+          height: 100,
           child: BottomNavigationBar(
             currentIndex: currentIndex,
             onTap: (newIndex) {
